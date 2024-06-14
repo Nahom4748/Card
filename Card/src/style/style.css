@@ -9,9 +9,9 @@ body {
 }
 .Outer {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
   background: hwb(20 10% 92%);
-  gap: 20px;
+  gap: 10px;
   width: 100%;
   justify-items: center;
 }
