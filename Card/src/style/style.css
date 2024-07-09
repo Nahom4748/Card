@@ -9,7 +9,7 @@ body {
 }
 .Outer {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1f;
   background: hwb(20 10% 92%);
   gap: 10px;
   width: 100%;
@@ -30,7 +30,7 @@ body {
   background-color: rgb(255, 0, 0);
   transform: scale(1.05);
 }
-.Card:nth-child(even) {
+.Card:nth-child(odd) {
   background-color: tomato;
 }
 

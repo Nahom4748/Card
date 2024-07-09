@@ -5,11 +5,7 @@ export default class DisplayCard extends Component {
     const { bgc, Name, State, Country, District } = this.props.Data;
     return (
       <div className="Card">
-        <img
-          className="Images"
-          src="https://via.placeholder.com/150/fff"
-          alt=""
-        />
+        <img className="Images" src="https://via.placeholder.com/150" alt="" />
         <h1>Name :{Name}</h1>
         <div className="info">
           <h2>State :{State}</h2>
